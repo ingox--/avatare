@@ -1,0 +1,54 @@
+body {
+  background: #333333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#left,
+#right {
+  font-size: 1.875em;
+  cursor: pointer;
+}
+
+#avatar {
+  position: relative;
+  display: flex;
+  width: 51px;
+  height: 100px;
+  margin: 25px 30px 0;
+}
+
+#avatar1 {
+  position: absolute;
+  z-index: 3;
+}
+
+#avatar2 {
+  position: absolute;
+  z-index: 2;
+}
+
+#avatar3 {
+  position: absolute;
+  z-index: 1;
+}
+
+#number {
+  position: absolute;
+  bottom: 0;
+  width: 51px;
+  text-align: center;
+  font: 16px Arial, sans-serif;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
